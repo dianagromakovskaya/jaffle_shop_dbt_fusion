@@ -1,0 +1,11 @@
+seeds:
+  - name: employees
+    description: A seed file containing employee assignments to customers.
+    columns:
+      - name: employee_id
+        description: The unique identifier for the employee.
+        data_tests:
+          - not_null
+          - unique
+      - name: customer_id
+        description: The unique identifier for the customer.
